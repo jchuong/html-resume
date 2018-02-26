@@ -63,7 +63,6 @@ li{
   height: 100%;
   padding: 0.6in var(--sidebar-horizontal-padding);
   background-color: #f2f2f2;
-  font-size: 8.5pt;
 }
 
 /* main */
@@ -334,6 +333,7 @@ li{
   font-family: "Source Code Pro";
   font-weight: 400;
   line-height: 1.75;
+  font-size: 7pt;
 }
 
 #contact li > i{
@@ -343,6 +343,7 @@ li{
 
 #skills{
   line-height: 1.5;
+  font-size: 8pt;
 }
 
 #skills ul{
