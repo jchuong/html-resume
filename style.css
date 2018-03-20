@@ -9,7 +9,7 @@
 
 :root{
   --page-width: 10in;
-  --page-height: 14.1in;
+  --page-height: 13in;
   --main-width: 7.8in;
   --sidebar-width: calc(var(--page-width) - var(--main-width));
   --decorator-horizontal-margin: 0.2in;
@@ -376,7 +376,7 @@ li{
     --main-width: 6.4in;
   }
   #main {
-    font-size: 7pt;
+    font-size: 7.5pt;
   }
   #main h2 {
     font-size: 9pt;
@@ -385,13 +385,13 @@ li{
     font-size: 9pt;
   }
   #sidebar h1 {
-    font-size 9pt;
+    font-size 8.5pt;
   }
-  #contact {
-    font-size: 6pt;
+  #contact li {
+    font-size: 7pt;
   }
   #skills {
-    font-size: 6pt;
+    font-size: 7pt;
   }
   #disclaimer {
     display: None;
