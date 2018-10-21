@@ -49,6 +49,11 @@ li{
   list-style-type: none;
 }
 
+a{
+  color: inherit;
+  text-decoration: inherit;
+}
+
 #main{
   float: left;
   width: var(--main-width);
@@ -397,3 +402,4 @@ li{
     display: None;
   }
 }
+
