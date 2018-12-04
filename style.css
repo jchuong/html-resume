@@ -286,6 +286,37 @@ a{
   content: "\f041";
 }
 
+.details:target {
+  animation: highlight 3s ease-in-out;
+  -moz-animation: highlight 3s ease-in-out;
+  -o-animation: highlight 3s ease-in-out;
+  -webkit-animation: highlight 3s ease-in-out;
+}
+
+
+@keyframes highlight {
+  0%   { background-color: #FFFFFF; }
+  50%  { background-color: #A86487; }
+  100% { background-color: #FFFFFF; }
+}
+
+@-moz-keyframes highlight {
+  0%   { background-color: #FFFFFF; }
+  50%  { background-color: #A86487; }
+  100% { background-color: #FFFFFF; }
+}
+
+@-o-keyframes highlight {
+  0%   { background-color: #FFFFFF; }
+  50%  { background-color: #A86487; }
+  100% { background-color: #FFFFFF; }
+}
+
+@-webkit-keyframes highlight {
+  0%   { background-color: #FFFFFF; }
+  50%  { background-color: #A86487; }
+  100% { background-color: #FFFFFF; }
+}
 /***** fine-tunes on the lists... *****/
 
 #main ul{
