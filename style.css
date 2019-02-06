@@ -239,6 +239,10 @@ a{
   padding-top: calc(var(--row-blocks-padding-top) - 1pt) !important; /* not sure why but this is needed for better alignment */
 }
 
+.details a {
+  text-decoration: underline;
+}
+
 .details header{
   color: #000;
 }
