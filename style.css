@@ -10,7 +10,7 @@
 :root{
   --page-width: 10in;
   --page-height: 13in;
-  --main-width: 7.8in;
+  --main-width: 8.05in;
   --sidebar-width: calc(var(--page-width) - var(--main-width));
   --decorator-horizontal-margin: 0.2in;
 
@@ -175,6 +175,7 @@ a{
 
 .date span{
   display: block;
+  word-spacing: 100vw;
 }
 
 .date span:nth-child(2)::before{
