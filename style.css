@@ -10,7 +10,7 @@
 :root{
   --page-width: 10in;
   --page-height: 13in;
-  --main-width: 8.05in;
+  --main-width: 8in;
   --sidebar-width: calc(var(--page-width) - var(--main-width));
   --decorator-horizontal-margin: 0.2in;
 
@@ -413,7 +413,8 @@ a{
   :root {
     --page-width: 8.5in;
     --page-height: 11in;
-    --main-width: 6.4in;
+    --main-width: 6.7in;
+    --sidebar-width: calc(var(--page-width) - var(--main-width));
   }
   #main {
     font-size: 8pt;
