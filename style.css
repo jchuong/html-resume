@@ -426,14 +426,20 @@ a{
   .details h3 {
     font-size: 9pt;
   }
+  .details .location {
+    font-size: 7pt;
+  }
+  .details .place {
+    font-size: 7pt;
+  }
   #sidebar h1 {
     font-size 8.5pt;
   }
   #contact li {
-    font-size: 7pt;
+    font-size: 6.5pt;
   }
   #skills {
-    font-size: 7pt;
+    font-size: 6.5pt;
   }
   #disclaimer {
     display: None;
