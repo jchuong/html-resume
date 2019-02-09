@@ -268,11 +268,12 @@ a{
 
 .details .place{
   float: left;
-  font-size: 7.5pt;
+  font-size: 8.5pt;
 }
 
 .details .location{
   float: right;
+  font-size: 8.5pt;
 }
 
 .details div{
