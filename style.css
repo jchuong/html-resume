@@ -410,6 +410,10 @@ a{
   font-style: normal;
 }
 
+.link {
+  text-decoration: underline;
+}
+
 @media print {
   :root {
     --page-width: 8.5in;
